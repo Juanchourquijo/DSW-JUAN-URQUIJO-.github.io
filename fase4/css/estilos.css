@@ -1,0 +1,39 @@
+.Encabezado {
+    background-color: white;
+    padding: 20px;
+}
+
+.Navegacion {
+    background-color: white;
+    padding: 35px;
+}
+
+.Contenedor {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+
+.Art_Principal {
+    background-color: aqua;
+    padding: 35px;
+    grid-column: 1/4;
+}
+
+.Lateral {
+    background-color:aliceblue;
+    height: 200%;
+    margin: 100px;
+    height: 99%;
+    width: 95%;
+    border-radius: 1em;
+    margin: 0.5em;
+    float: right;
+
+}
+
+.Pie_P {
+    width: 100%;
+    padding: 25px;
+    flex-wrap: wrap;
+}

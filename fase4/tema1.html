@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fase 4 </title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="Encabezado">
+        <img src="img/html.png" width="150">
+        <h1>
+            <center>Aprendiendo HTML: Fundamentos de CSS, Frameworks CSS</center>
+
+        </h1>
+    </header>
+    <hr>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Temas
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="tema1.html">Tema 1 Fundamentos de CSS</a></li>
+                        <li><a class="dropdown-item" href="tema2.html">Tema 2 Frameworks CSS</a></li>
+
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Recursos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="recurso1.html">Audio</a></li>
+                        <li><a class="dropdown-item" href="recurso2.html">Video</a></li>
+
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Evaluación
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="evaluacion1.html">Evaluación 1</a></li>
+                        <li><a class="dropdown-item" href="evaluacion2.html">Evaluación 2</a></li>
+
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="autor.html">Autor</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+      </nav>
+
+    <main class="Contenedor">
+        <section class="Art_Principal">
+            
+            <p>
+                <h1>Fundamentos de CSS </h1>
+                <p>
+                <h2><b>Definición de CSS</b></h2>
+                    CSS significa Cascading Stylesheets (hojas de estilo en cascada). Es un lenguaje para crear reglas que puedan selecionar varios elementos en la página y cambiar sus propiedades visuales.
+                <br>
+
+                    Una definición más formal de CSS sería la siguiente que aparece en Wikipedia:
+
+                    CSS es un lenguaje de diseño gráfico que permite definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado. Es muy usado para establecer el diseño visual de los documentos web e interfaces de usuario escritas en HTML.
+                    En la propia definición de CSS vemos que está muy ligado desde su nacimiento a HTML. Desde que nació, el objetivo de CSS fue poner un poco de orden a la hora de aplicar los estilos a las páginas web.
+                </p>
+                <h2><b>Funcionamiento</b></h2> 
+                <p>
+                    Veremos un pequeño esquema qué es lo que sucede desde que se solicita una página web hasta que se le aplica el estilo. El proceso es el siguiente:
+                </p>
+                <img src="img/css1.png" width="800" alt="Ejemplo sobre como funciona">
+                <p>
+                    Cuando desde un navegador, por ejemplo Chrome, solicitamos una página a través de una dirección, por ejemplo http://..../index.html, esta petición va a un servidor web, que nos devuelve la página que se ha solicitado.
+
+                    Para aplicar estilos en las páginas HTML, se utiliza un fichero aparte, una hoja de estilos con la extensión .css, por lo que cuando estos dos documentos llegan al navegador, va a leer el documento HTML, le aplica los estilos CSS y lo muestra.
+                </p>
+                <h2><b>Ejemplo de como se veria una pagina con CSS y sin usar CSS</b></h2> 
+                <img src="img/ejemplocss.png" width="800"alt="ejemplo de como se ve la pagina con css y sin css">
+                <br>
+                <p>
+                    <br>
+                </p>
+                <img src="img/ejemplo2css.jpeg" width="800" alt="ejemplo 2">
+            </p>
+            <p>
+                Referencia bibliografica
+            </p>
+            <p>
+                <center>
+                    Recio García, J. A. (2016). HTML5, CSS3 y JQuery: curso práctico. RA-MA Editorial. p. 52 a 142. https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/106494?page=52
+                </center>
+            </p>
+        </section>
+        <aside class="Lateral ">
+            <div class="twitter">
+                <a class="twitter-timeline" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw" data-chrome="nofooter">Tweets by UniversidadUNAD</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+        </aside>
+    </main>
+    <hr>
+    <footer class="Pie_P">
+        <p>
+            <center> Juan David Urquijo Pinzon<br> Skype: upjd <br>Email:upjd@hotmail.com <br>Fecha actualizacion : 27/10/2022</center>
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
